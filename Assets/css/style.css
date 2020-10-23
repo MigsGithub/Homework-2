@@ -15,7 +15,6 @@
 
 body {
     color: #ffffff;
-    font-size: 10px;
 }
 
 a {
@@ -27,22 +26,26 @@ a:hover {
     font-weight: bold;
 } 
 
+h1 {
+    font-size: 2.5rem;
+}
+
 h2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 /*----------------------   header  --------------------------*/
 
 
 header img {
-    width: 250px;
+    width: 15.7rem;
 }
 
 header {
-    padding: 10px 0px 10px 10px;
+    padding: 1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #3C887E;
-    margin-bottom: 2rem;
+    margin: 1%;
 }
 
 header img {
@@ -84,25 +87,56 @@ header nav::after {
 main {
     font-size: 1.3rem;
     background-color: #35a7ff;
+    padding: 1rem;
+    margin: 01%;
 }
 
 
 
-
-/*----------------------     --------------------------*/
+/*----------------------  Projects   --------------------------*/
 
 
 article {
     font-size: 1.3rem;
     background-color: #34435e;
+    display: block;
+    padding: 1rem;
+    margin: 01%;
+}
+
+div.line{
+    display: inline-block;
+    box-sizing: border-box;
 }
 
 
 
-/*----------------------     --------------------------*/
+#firstimg {
+    width: 30rem;
+    padding: 1rem;
+}
+  
+img.projectpic{
+    width: 20rem;
+    padding: 1rem;
+}
+  
+  
+section.projects {
+    padding: 1rem;
+    text-align: center;
+  }
 
-aside {
+
+
+
+/*----------------------  Contacts   --------------------------*/
+
+footer {
+    font-size: 1.3rem;
     background-color: #0fad17;
+    margin: 01%;
+    padding: 1rem;
 }
 
 
